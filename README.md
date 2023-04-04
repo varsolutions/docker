@@ -3,8 +3,8 @@
 ## Habilitar o Virtual Machine Platform
 Execute os seguintes comandos no PowerShell em modo administrador:
 
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
 
 ## Instalar o executável do WSL
 Baixe o Kernel do WSL 2 neste link: https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel e instale o pacote.
