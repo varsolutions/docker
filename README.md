@@ -70,3 +70,6 @@ Este comando acima terá que ser executado toda vez que Linux for reiniciado. Se
 
 Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
 O Docker Compose instalado agora estará na versão 2, para executa-lo em vez de docker-compose use docker compose.
+
+### Cofiguração do terminal
+Baixar o arquivo de configuração do terminal e utilizar em seu local
