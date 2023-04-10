@@ -71,5 +71,14 @@ Este comando acima terá que ser executado toda vez que Linux for reiniciado. Se
 Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
 O Docker Compose instalado agora estará na versão 2, para executa-lo em vez de docker-compose use docker compose.
 
+### Erro ao iniciar o Docker no Ubuntu 22.04
+
+> Se mesmo ao iniciar o serviço do Docker acontecer o seguinte erro ou similar:
+>
+> `Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?`
+> Rode o comando `sudo update-alternatives --config iptables` e escolha a opção 1 `iptables-legacy`
+>
+> Rode novamente o `sudo service docker start`. Rode algum comando Docker como `docker ps` para verificar se está funcionando corretamente. Se não mostrar o erro acima, está ok.
+
 ### Cofiguração do terminal
 Baixar o arquivo de configuração do terminal e utilizar em seu local
