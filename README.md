@@ -1,4 +1,4 @@
-#Docker Desktop
+# Docker Desktop
 
 ## Baixar a imagem do sql server
 ``` bash
