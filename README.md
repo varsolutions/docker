@@ -1,4 +1,18 @@
-# docker
+#Docker Desktop
+
+## Baixar a imagem do sql server
+``` bash
+docker pull mcr.microsoft.com/mssql/server:2022-latest
+```
+
+## Rodar o container
+
+``` bash
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+```
+
+
+# docker WSL 2
 
 ## Habilitar o Virtual Machine Platform
 Execute os seguintes comandos no PowerShell em modo administrador:
