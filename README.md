@@ -116,3 +116,7 @@ O Docker Compose instalado agora estará na versão 2, para executa-lo em vez de
 
 ### Cofiguração do terminal
 Baixar o arquivo de configuração do terminal e utilizar em seu local
+
+# Redis
+
+https://drive.google.com/file/d/1EBfnADQTMLLUOOg5w4wXYf1WyPwPnpOB/view?usp=sharing
